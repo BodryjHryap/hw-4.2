@@ -6,6 +6,8 @@ CREATE TABLE drivers (
                              car_id TEXT REFERENCES cars (id)
 );
 
+
+
 CREATE TABLE cars (
                       id int primary KEY,
                       model varchar(255) NOT NULL,
